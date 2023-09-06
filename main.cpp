@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "Deck.hpp"
+#include "Deck.cpp"
 
 int main() {
 std::string move;

@@ -42,7 +42,7 @@ Deck::Deck(){
 
 void Deck::printDeck(){
   std::cout<< "{ ";
-  for(int i = 0; i<deck.size();i++){
+  for(unsigned long i = 0; i<deck.size();i++){
      std::cout<<"["<<deck[i]<<"], ";
      }
       std::cout<<"} \n";
@@ -235,7 +235,7 @@ void Deck::dealer_hit(){
 
 void Deck::printPlayerHand(){
   std::cout<<"Your hand: "; 
-  for(int i = 0; i<playerHand.size(); i++){
+  for(unsigned long i = 0; i<playerHand.size(); i++){
     std::cout<< "[" <<playerHand[i] << "] ";
   }
   std::cout<<"\n"<<"Your total: "<<playerTotal<<"\n";
@@ -243,7 +243,7 @@ void Deck::printPlayerHand(){
 }
 void Deck::printDealerHand(){
   std::cout<< "Dealer's hand: " ;
-  for(int i = 0; i<dealerHand.size(); i++){
+  for(unsigned long i = 0; i<dealerHand.size(); i++){
     std::cout<< "[" << dealerHand[i] << "] ";
   }
   std::cout<<"\n"<<"Dealer total: "<<dealerTotal<<"\n";

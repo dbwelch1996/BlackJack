@@ -1,6 +1,7 @@
 //this is for the hpp
 #include <vector>
 #include <string>
+#pragma once
 
 class Deck {
 private:
